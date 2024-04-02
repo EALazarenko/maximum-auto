@@ -1,0 +1,20 @@
+.logo {
+  transition: .5s;
+  cursor: pointer;
+  padding: 13px 10px 6px 0px;
+}
+
+.logo:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 764px) {
+  .logo {
+    padding: 10px 10px 8px 2px;
+  }
+
+  .logo__img {
+    width: 111px;
+    height: 30px;
+  }
+}

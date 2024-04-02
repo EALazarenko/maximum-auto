@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'TacticSans';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./TacticSans-Reg.woff2') format('woff2'),
+  url('./TacticSansExtExd-Reg.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TacticSans';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url('./TacticSans-Med.woff2') format('woff2'),
+  url('./TacticSans-Med.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TacticSans';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url('./TacticSans-Bld.woff2') format('woff2'),
+  url('./TacticSans-Bld.woff') format('woff');
+}

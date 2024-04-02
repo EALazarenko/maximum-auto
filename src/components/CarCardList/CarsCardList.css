@@ -1,0 +1,30 @@
+.cars {
+  margin: 0;
+  padding: 0;
+  max-width: 927px;
+  width: 100vw;
+}
+
+.cars__list {
+  display: grid;
+  column-gap: 37px;
+  row-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(561px, 1fr));
+  margin: 0 0 80px;
+  padding: 0;
+  justify-items: center;
+}
+
+@media screen and (max-width: 764px) {
+  .cars {
+    max-width: 280px;
+  }
+
+  .cars__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+  }
+}

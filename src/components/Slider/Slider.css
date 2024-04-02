@@ -1,0 +1,32 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  max-width: 881px;
+  max-height: 763px;
+  width: 100vw;
+  gap: 35px;
+}
+
+.slider__image {
+  width: 876px;
+  height: 719px;
+  border-radius: 16px;
+
+}
+
+.slider__segments {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.slider__segment {
+  width: 140px;
+  height: 4px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.slider__segment.active {
+  background: #010C13;
+}

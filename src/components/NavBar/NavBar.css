@@ -1,0 +1,46 @@
+.nav-bar {
+  max-width: 500px;
+  border-bottom: 2px solid #9AA7AD;
+  padding: 0 0 30px;
+  width: 100vw;
+}
+
+.nav-bar__title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39.2px;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding: 26px 0 3px;
+}
+
+@media screen and (max-width: 1500px) {
+  .nav-bar {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .nav-bar {
+    max-width: 335px;
+  }
+}
+
+@media screen and (max-width: 848px) {
+  .nav-bar {
+    max-width: 298px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .nav-bar {
+    max-width: 202px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .nav-bar {
+    max-width: 280px;
+    border-bottom: none;
+  }
+}
