@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/maximum-auto/static/css/main.6c915d8a.css",
+    "main.js": "/maximum-auto/static/js/main.4597096e.js",
+    "static/js/453.8b756fa0.chunk.js": "/maximum-auto/static/js/453.8b756fa0.chunk.js",
+    "static/media/carBanner.svg": "/maximum-auto/static/media/carBanner.8c598aa6b57e31e1578d5a1bae3bbacf.svg",
+    "static/media/TacticSansExtExd-Reg.woff": "/maximum-auto/static/media/TacticSansExtExd-Reg.f28d73a6d0ab33b8821b.woff",
+    "static/media/TacticSans-Reg.woff2": "/maximum-auto/static/media/TacticSans-Reg.745135ebb14deff33d0e.woff2",
+    "static/media/TacticSans-Med.woff": "/maximum-auto/static/media/TacticSans-Med.61fd88933000a8854511.woff",
+    "static/media/TacticSans-Bld.woff": "/maximum-auto/static/media/TacticSans-Bld.813cdcecf68debb437ce.woff",
+    "static/media/TacticSans-Med.woff2": "/maximum-auto/static/media/TacticSans-Med.85039b5cf6a1bbfa1b5b.woff2",
+    "static/media/TacticSans-Bld.woff2": "/maximum-auto/static/media/TacticSans-Bld.dc5e6032ed92ff215ed0.woff2",
+    "static/media/iconEngine.svg": "/maximum-auto/static/media/iconEngine.a2cec32873076021b1d90d464f1e89d8.svg",
+    "static/media/iconTM.svg": "/maximum-auto/static/media/iconTM.1d90330a2d3b57711811ba03bbcdcc26.svg",
+    "static/media/iconYear.svg": "/maximum-auto/static/media/iconYear.1e81c6a2fc3ee1bd40ed30c522ee1c30.svg",
+    "static/media/logo.svg": "/maximum-auto/static/media/logo.96653f203ced67cc770a9d6105d4feb8.svg",
+    "index.html": "/maximum-auto/index.html",
+    "static/media/garantiia.svg": "/maximum-auto/static/media/garantiia.7384b4baf3248c92a294bfae278cc9ba.svg",
+    "main.6c915d8a.css.map": "/maximum-auto/static/css/main.6c915d8a.css.map",
+    "main.4597096e.js.map": "/maximum-auto/static/js/main.4597096e.js.map",
+    "453.8b756fa0.chunk.js.map": "/maximum-auto/static/js/453.8b756fa0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c915d8a.css",
+    "static/js/main.4597096e.js"
+  ]
+}
