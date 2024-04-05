@@ -21,6 +21,9 @@
   color: #010C13;
   margin: 0;
   padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card__subtitle {
@@ -31,6 +34,9 @@
   color: #9AA7AD;
   margin: 12px 0 28px;
   padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card__button {

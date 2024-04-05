@@ -5,13 +5,16 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import CarDetail from '../CarDetail/CarDetail';
 import { url } from '../../utils/CarsApi';
+import Preloader from '../Preloader/Preloader';
 
 
 function App() {
   const [cars, setCars] = useState([]);
   const [selectedBrand, setSelectedBrand] = useState('Chery');
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    setIsLoading(true);
     const getCars = async () => {
       try {
         const res = await fetch(`${url}${selectedBrand}`);
@@ -25,7 +28,7 @@ function App() {
         console.error('Произошла ошибка:', error.message);
       };
     }
-
+    setIsLoading(false);
     getCars();
   }, [selectedBrand]);
 
@@ -33,11 +36,13 @@ function App() {
     setSelectedBrand(brand);
   };
 
+  if (isLoading) return <Preloader />;
+
   return (
     <div className="page">
       <Header />
       <Routes>
-        <Route path="/"
+        <Route path="/maximum-auto"
           element={<Main
             cars={cars}
             handleBrandClick={handleBrandClick}

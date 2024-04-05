@@ -42,5 +42,6 @@
   .nav-bar {
     max-width: 280px;
     border-bottom: none;
+    padding-bottom: 34px;
   }
 }
