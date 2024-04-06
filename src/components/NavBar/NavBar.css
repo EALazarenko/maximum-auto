@@ -20,7 +20,16 @@
   }
 }
 
-@media screen and (max-width: 1015px) {
+@media screen and (max-width: 1480px) {
+  .nav-bar {
+    max-width: 916px;
+    border-bottom: none;
+    padding-bottom: 34px;
+    margin: auto;
+  }
+}
+
+/* @media screen and (max-width: 1015px) {
   .nav-bar {
     max-width: 335px;
   }
@@ -44,4 +53,4 @@
     border-bottom: none;
     padding-bottom: 34px;
   }
-}
+} */

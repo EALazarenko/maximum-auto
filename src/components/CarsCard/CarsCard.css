@@ -63,10 +63,10 @@
   color: #9AA7AD;
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 1480px) {
   .card {
     width: 280px;
-    height: 315px;
+    height: 338px;
   }
 
   .card__img {
@@ -95,3 +95,11 @@
     line-height: 16.8px;
   }
 }
+
+@media screen and (max-width: 764px) {
+  .card {
+    width: 280px;
+    height: 315px;
+  }
+}
+

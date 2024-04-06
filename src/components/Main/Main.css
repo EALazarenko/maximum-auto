@@ -27,6 +27,20 @@
   }
 }
 
+@media screen and (max-width: 1480px) {
+  .main {
+    max-width: 929px;
+  }
+
+  .main__group {
+    flex-direction: column;
+  }
+
+  .main__title {
+    margin: 0 0 20px;
+  }
+}
+
 @media screen and (max-width: 1100px) {
   .main {
     max-width: 940px;

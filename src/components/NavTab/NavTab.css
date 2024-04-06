@@ -34,3 +34,9 @@
   border-color: #9AA7AD;
   color: #9AA7AD;
 }
+
+@media screen and (max-width: 1480px) {
+  .nav-tab {
+    max-width: 916px;
+  }
+}

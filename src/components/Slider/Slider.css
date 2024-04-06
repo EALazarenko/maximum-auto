@@ -11,7 +11,8 @@
   width: 876px;
   height: 719px;
   border-radius: 16px;
-
+  object-position: top;
+  object-fit: cover;
 }
 
 .slider__segments {
