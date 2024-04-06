@@ -4,7 +4,7 @@ import { SMALL_SCREEN } from '../../utils/constant';
 import useScreenWidth from '../../hooks/useScreenWidth';
 import Swiper from '../Swiper/Swiper';
 
-const NavBar = ({ handleBrandClick }) => {
+const NavBar = ({ handleBrandClick, selectedBrand }) => {
   const screenWidth = useScreenWidth();
 
   return (
@@ -12,7 +12,7 @@ const NavBar = ({ handleBrandClick }) => {
       {screenWidth > SMALL_SCREEN ? (
         <>
           <h3 className='nav-bar__title'>Бренд</h3>
-          <NavTab handleBrandClick={handleBrandClick} />
+          <NavTab handleBrandClick={handleBrandClick} selectedBrand={selectedBrand} />
         </>
       ) : (
         <Swiper handleBrandClick={handleBrandClick} />)}

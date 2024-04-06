@@ -10,7 +10,7 @@ const Main = ({ cars, handleBrandClick, selectedBrand, handleModelClick }) => {
       <h1 className='main__title'>Автомобили {selectedBrand} в СПб</h1>
       <div className='main__group'>
         <div>
-          <NavBar handleBrandClick={handleBrandClick} />
+          <NavBar handleBrandClick={handleBrandClick} selectedBrand={selectedBrand} />
         </div>
         <CarsCardList cars={cars} handleModelClick={handleModelClick} />
 
