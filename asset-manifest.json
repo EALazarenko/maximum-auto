@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maximum-auto/static/css/main.83f4a32b.css",
-    "main.js": "/maximum-auto/static/js/main.88d4c293.js",
+    "main.js": "/maximum-auto/static/js/main.5aac6e9a.js",
     "static/js/453.8b756fa0.chunk.js": "/maximum-auto/static/js/453.8b756fa0.chunk.js",
     "static/media/carBanner.svg": "/maximum-auto/static/media/carBanner.8c598aa6b57e31e1578d5a1bae3bbacf.svg",
     "static/media/TacticSansExtExd-Reg.woff": "/maximum-auto/static/media/TacticSansExtExd-Reg.f28d73a6d0ab33b8821b.woff",
@@ -17,11 +17,11 @@
     "index.html": "/maximum-auto/index.html",
     "static/media/garantiia.svg": "/maximum-auto/static/media/garantiia.7384b4baf3248c92a294bfae278cc9ba.svg",
     "main.83f4a32b.css.map": "/maximum-auto/static/css/main.83f4a32b.css.map",
-    "main.88d4c293.js.map": "/maximum-auto/static/js/main.88d4c293.js.map",
+    "main.5aac6e9a.js.map": "/maximum-auto/static/js/main.5aac6e9a.js.map",
     "453.8b756fa0.chunk.js.map": "/maximum-auto/static/js/453.8b756fa0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.83f4a32b.css",
-    "static/js/main.88d4c293.js"
+    "static/js/main.5aac6e9a.js"
   ]
 }
