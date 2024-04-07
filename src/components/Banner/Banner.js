@@ -6,8 +6,8 @@ const Banner = () => {
 
   return (
     <section className='banner'>
-        <h3 className='banner__title'>Кредит на новый Chery Tiggo</h3>
-        <div className='banner__container'>
+      <h3 className='banner__title'>Кредит на новый Chery Tiggo</h3>
+      <div className='banner__container'>
         <span className='banner__subtitle'>
           Оформите кредит на любой автомобиль ассортимента дилерского центра «Максимум»
         </span>

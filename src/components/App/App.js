@@ -6,6 +6,7 @@ import Main from '../Main/Main';
 import CarDetail from '../CarDetail/CarDetail';
 import { url } from '../../utils/CarsApi';
 import Preloader from '../Preloader/Preloader';
+import NotFound from '../NotFound/NotFound';
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
           element={<CarDetail
             cars={cars}
           />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

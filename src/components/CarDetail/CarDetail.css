@@ -37,7 +37,7 @@
   gap: 29px;
 }
 
-.promo_description {
+.promo__description {
   max-width: 655px;
   width: 100vw;
   min-height: 760px;
@@ -54,7 +54,7 @@
   gap: 19px;
 }
 
-.promo_item {
+.promo__item {
   display: flex;
   gap: 32px;
   list-style: none;
@@ -64,6 +64,10 @@
   width: 588px;
   height: 82px;
   align-items: center;
+}
+
+.promo__item_specific {
+  background-color: initial;
 }
 
 .promo__price {
@@ -108,5 +112,66 @@
   .promo__container {
     flex-direction: column;
     max-width: 1100px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .promo {
+    width: auto;
+  }
+
+  .promo__container {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .promo__container {
+    width: 310px;
+    margin: auto;
+  }
+
+  .promo__title {
+    font-size: 20px;
+    line-height: 28px;
+    align-self: center;
+  }
+
+  .promo__subtitle {
+    font-size: 14px;
+    line-height: 22.4px;
+    align-self: center;
+  }
+
+  .promo__description {
+    width: 310px;
+  }
+
+  .promo__price {
+    line-height: 140%;
+    font-size: 16px;
+  }
+
+  .promo__item {
+    width: 278px;
+    padding-left: 20px;
+  }
+
+  .promo__item_specific {
+    padding-left: 2px;
+  }
+
+  .promo__area {
+    width: 310px;
+  }
+
+  .promo__text {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  .promo__icon {
+    width: 45px;
+    height: 45px;
   }
 }

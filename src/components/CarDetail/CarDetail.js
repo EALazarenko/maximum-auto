@@ -21,23 +21,23 @@ const CarDetail = () => {
             <h1 className='promo__title'>{selectedCar.feedData.brandName} {selectedCar.feedData.modelName} {selectedCar.feedData.productionYear} года</h1>
             <span className='promo__subtitle'>VIN: {selectedCar.feedData.vin}</span>
             <div className='promo__container'>
-              <div className='promo_description'>
+              <div className='promo__description'>
                 <ul className='promo__list'>
-                  <li className='promo_item'>
+                  <li className='promo__item'>
                     <h3 className='promo__price'>{formatPrice(selectedCar.feedData.autoPrice)} &#8381;</h3>
                   </li>
-                  <li className='promo_item'>
+                  <li className='promo__item'>
                     <img src={garantiia} alt='Иконка Гарантия юр. чистоты' />
                     <p className='promo__text'>Гарантия юр. чистоты</p>
                   </li>
                 </ul>
                 <h3 className='promo__title'>Характеристики</h3>
                 <ul className='promo__area'>
-                  <li className='promo_item'>
+                  <li className='promo__item promo__item_specific'>
                     <img className='promo__icon' src={iconYear} alt='Иконка Год выпуска' />
                     <p className='promo__text'>{selectedCar.feedData.productionYear} год выпуска</p>
                   </li>
-                  <li className='promo_item'>
+                  <li className='promo__item  promo__item_specific'>
                     <img className='promo__icon'
                       src={iconEngine}
                       alt='Иконка Характеристики двигателя'
@@ -48,7 +48,7 @@ const CarDetail = () => {
                   / ${selectedCar.feedData.equipmentVariantFuelType}`}
                     </p>
                   </li>
-                  <li className='promo_item'>
+                  <li className='promo__item  promo__item_specific'>
                     <img className='promo__icon' src={iconTM} alt='Иконка Коробка передач' />
                     <p className='promo__text'>КП - {selectedCar.feedData.equipmentVariantTransmissionType}</p>
                   </li>

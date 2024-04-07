@@ -1,7 +1,7 @@
 import { brands } from '../../utils/brands';
 import './NavTab.css'
 
-const NavTab = ({ handleBrandClick,selectedBrand }) => {
+const NavTab = ({ handleBrandClick, selectedBrand }) => {
 
   const handleBrand = (brand) => {
     handleBrandClick(brand);

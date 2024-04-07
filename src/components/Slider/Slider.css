@@ -31,3 +31,16 @@
 .slider__segment.active {
   background: #010C13;
 }
+
+@media screen and (max-width: 1020px) {
+  .slider {
+    width: auto;
+    max-width: 357px;
+    align-self: center;
+  }
+
+  .slider__image {
+    width: 357px;
+    height: 315px;
+  }
+}

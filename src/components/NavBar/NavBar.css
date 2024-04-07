@@ -28,29 +28,3 @@
     margin: auto;
   }
 }
-
-/* @media screen and (max-width: 1015px) {
-  .nav-bar {
-    max-width: 335px;
-  }
-}
-
-@media screen and (max-width: 848px) {
-  .nav-bar {
-    max-width: 298px;
-  }
-}
-
-@media screen and (max-width: 812px) {
-  .nav-bar {
-    max-width: 202px;
-  }
-}
-
-@media screen and (max-width: 764px) {
-  .nav-bar {
-    max-width: 280px;
-    border-bottom: none;
-    padding-bottom: 34px;
-  }
-} */
