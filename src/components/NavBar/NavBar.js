@@ -15,7 +15,7 @@ const NavBar = ({ handleBrandClick, selectedBrand }) => {
           <NavTab handleBrandClick={handleBrandClick} selectedBrand={selectedBrand} />
         </>
       ) : (
-        <Swiper handleBrandClick={handleBrandClick} />)}
+        <Swiper handleBrandClick={handleBrandClick} selectedBrand={selectedBrand} />)}
 
     </section>
   )

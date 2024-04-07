@@ -1,13 +1,10 @@
 import { brands } from '../../utils/brands';
-import React, { useState } from 'react';
 import './Swiper.css'
 
-const Swiper = ({ handleBrandClick }) => {
-  const [activeBrand, setActiveBrand] = useState(brands[0]);
+const Swiper = ({ handleBrandClick, selectedBrand }) => {
 
   const handleBrand = (brand) => {
     handleBrandClick(brand);
-    setActiveBrand(brand);
   };
 
   return (
@@ -15,7 +12,7 @@ const Swiper = ({ handleBrandClick }) => {
       <div className='swiper__list'>
         {brands.map((brand, index) => (
           <button
-            className={`swiper__link ${brand === activeBrand ? 'active' : ''}`}
+            className={`swiper__link ${brand === selectedBrand ? 'active' : ''}`}
             key={index} onClick={() => handleBrand(brand)}>
             {brand}
           </button>
